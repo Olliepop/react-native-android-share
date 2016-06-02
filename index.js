@@ -1,12 +1,13 @@
 'use strict';
 
 var invariant = require('invariant');
-var React = require('react-native');
-var {
+import React from 'react';
+
+import {
       NativeModules: {
              RNAndroidShare
      }
-} = require('react-native');
+} from 'react-native';
 
 var AndroidShare = {
 
